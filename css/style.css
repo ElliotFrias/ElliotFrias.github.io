@@ -1,0 +1,95 @@
+*{
+    margin: 20px;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: 5px outset burlywood; 
+    background-color: bisque;
+    text-align: center;   
+}
+
+header{
+    color: brown;
+    background-color: bisque;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    line-height: 100px;
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+nav{
+    background-color: coral;
+    height: 70px;
+    border: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 20px;
+}
+
+#ContenedorG{
+    float: left;
+    width: 100%%;
+    min-height: 500px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+}
+
+#Menu{
+    background-color:lemonchiffon;
+    width: 25%;
+}
+
+#ContenidoTexto{
+    padding: 10px;
+    background-color:tan;
+    width: 50%;
+}
+
+
+#BarraLat{
+    background-color: rgb(255, 175, 175);
+    width: 240px;
+}
+
+.articulo {
+    text-align: justify;
+}
+
+#logoCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ImgVolley{
+    max-width: 80%;
+    border: 2px solid black;
+}
+
+#Contacto{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Formulario{
+    background-color: azure;
+    max-width: 80%;
+    align-items: center;
+}
+
+footer{
+    height: 120px;
+    width: 96%;
+    float: inline-end;
+    background-color: white;
+}
